@@ -1,0 +1,12 @@
+{
+    "require": {
+      "geoip/geoip": "~1.14",
+      "ip2location/ip2location": "dev-master",
+      "ezyang/htmlpurifier": "dev-master",
+      "smarty/smarty": "~3.1",
+      "mobiledetect/mobiledetectlib": "dev-master",
+      "cleantalk/php-antispam": "dev-master",
+      "joshtronic/php-projecthoneypot": "dev-master",
+      "google/recaptcha": "~1.1"
+    }
+}

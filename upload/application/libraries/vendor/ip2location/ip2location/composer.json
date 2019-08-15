@@ -1,0 +1,22 @@
+{
+    "name": "ip2location/ip2location",
+    "type": "library",
+    "description": "This module is a PHP module that enables the user to find the country, region, city, etc",
+    "keywords": ["geolocation"],
+    "homepage": "http://www.ip2location.com/",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "ip2location",
+            "email": "support@ip2location.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2"
+    },
+    "autoload": {
+        "classmap": [
+            "IP2Location.php"
+        ]
+    }
+}

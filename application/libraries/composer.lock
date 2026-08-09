@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "baae9802b2158aa87fd69770f1c76ffb",
+    "content-hash": "878b7456c33c4574b6b119b0fa01bc51",
     "packages": [
         {
             "name": "cleantalk/php-antispam",
@@ -38,7 +38,7 @@
                 "api",
                 "spam"
             ],
-            "time": "2015-02-05 06:33:24"
+            "time": "2015-02-05T06:33:24+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -82,7 +82,7 @@
             "keywords": [
                 "html"
             ],
-            "time": "2015-02-12 00:36:44"
+            "time": "2015-02-12T00:36:44+00:00"
         },
         {
             "name": "geoip/geoip",
@@ -126,7 +126,7 @@
                 "geolocation",
                 "maxmind"
             ],
-            "time": "2013-11-05 21:52:33"
+            "time": "2013-11-05T21:52:33+00:00"
         },
         {
             "name": "google/recaptcha",
@@ -171,7 +171,7 @@
                 "recaptcha",
                 "spam"
             ],
-            "time": "2015-03-16 13:45:08"
+            "time": "2015-03-16T13:45:08+00:00"
         },
         {
             "name": "ip2location/ip2location",
@@ -211,7 +211,7 @@
             "keywords": [
                 "geolocation"
             ],
-            "time": "2013-08-23 14:38:49"
+            "time": "2013-08-23T14:38:49+00:00"
         },
         {
             "name": "joshtronic/php-projecthoneypot",
@@ -257,7 +257,7 @@
                 "spam",
                 "spammer"
             ],
-            "time": "2014-09-17 17:09:22"
+            "time": "2014-09-17T17:09:22+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -311,36 +311,38 @@
                 "mobile detector",
                 "php mobile detect"
             ],
-            "time": "2015-03-23 18:30:05"
+            "time": "2015-03-23T18:30:05+00:00"
         },
         {
             "name": "smarty/smarty",
-            "version": "v3.1.21",
+            "version": "v4.5.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/smarty-php/smarty.git",
-                "reference": "1f878e6d746ecc8ec8d00d9c75044cf7d23ad94a"
+                "reference": "838d6ad1c635f8a6bafc08d791b8af18d8304b3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/1f878e6d746ecc8ec8d00d9c75044cf7d23ad94a",
-                "reference": "1f878e6d746ecc8ec8d00d9c75044cf7d23ad94a",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/838d6ad1c635f8a6bafc08d791b8af18d8304b3a",
+                "reference": "838d6ad1c635f8a6bafc08d791b8af18d8304b3a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.2"
+                "php": "^7.1 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5 || ^7.5",
+                "smarty/smarty-lexer": "^3.1"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1.x-dev"
+                    "dev-master": "4.0.x-dev"
                 }
             },
             "autoload": {
                 "classmap": [
-                    "libs/Smarty.class.php",
-                    "libs/SmartyBC.class.php",
-                    "libs/sysplugins/smarty_security.php"
+                    "libs/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -359,28 +361,44 @@
                 {
                     "name": "Rodney Rehm",
                     "email": "rodney.rehm@medialize.de"
+                },
+                {
+                    "name": "Simon Wisselink",
+                    "homepage": "https://www.iwink.nl/"
                 }
             ],
             "description": "Smarty - the compiling PHP template engine",
-            "homepage": "http://www.smarty.net",
+            "homepage": "https://smarty-php.github.io/smarty/",
             "keywords": [
                 "templating"
             ],
-            "time": "2014-10-31 04:22:20"
+            "support": {
+                "forum": "https://github.com/smarty-php/smarty/discussions",
+                "issues": "https://github.com/smarty-php/smarty/issues",
+                "source": "https://github.com/smarty-php/smarty/tree/v4.5.7"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/wisskid",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-06-29T08:48:56+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "ip2location/ip2location": 20,
-        "ezyang/htmlpurifier": 20,
-        "mobiledetect/mobiledetectlib": 20,
         "cleantalk/php-antispam": 20,
-        "joshtronic/php-projecthoneypot": 20
+        "ezyang/htmlpurifier": 20,
+        "ip2location/ip2location": 20,
+        "joshtronic/php-projecthoneypot": 20,
+        "mobiledetect/mobiledetectlib": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": []
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
 }
